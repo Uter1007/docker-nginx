@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
+LABEL maintainer="uter <christoph.ott@lean-coders.at>"
 
 ENV NGINX_VERSION 1.13.7
 

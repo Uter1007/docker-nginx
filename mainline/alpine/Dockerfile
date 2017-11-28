@@ -4,7 +4,7 @@ LABEL maintainer="uter <christoph.ott@lean-coders.at>"
 
 ENV NGINX_VERSION 1.13.7
 
-RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
+RUN GPG_KEYS=94AE36675C464D64BAFA68DD7434390BDBE9B9C5 \
 	&& CONFIG="\
 		--prefix=/etc/nginx \
 		--sbin-path=/usr/sbin/nginx \
